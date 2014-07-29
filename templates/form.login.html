@@ -1,0 +1,39 @@
+<div class="form-signin clearfix">
+    <div class=" form-user">
+        <h4 class="form-signin-heading form-head">{%- data.formTitle %}</h4>
+        <div class="input-group form-email sing-field-indent">
+            <span class="input-group-addon"><i class="{%- data.loginIcon %}"></i></span>
+            <view data-id="login" data-constructor="Views/Fields/Base" data-options="{
+                type: 'text',
+                attrs: {
+                    placeholder: '{%- data.loginPlaceholder %}',
+                    required: 'required'
+                },
+                rules: 'login',
+                className: 'field-login form-control',
+                name: 'login',
+                label: 'Login'
+            }" />
+        </div>
+        {% if(data.showPassword) { %}
+        <div class="input-group form-password sing-field-indent">
+            <span class="input-group-addon"><i class="{%- data.passwordIcon %}"></i></span>
+            <view data-id="password" data-constructor="Views/Fields/Base" data-options="{
+                type: 'password',
+                attrs: {
+                    placeholder: '{%- data.passwordPlaceholder %}',
+                    required: 'required'
+                },
+                rules: 'password',
+                className: 'field-password form-control',
+                name: 'password',
+                label: 'Password'
+            }" />
+        </div>
+        {% } %}
+        <div class="form-buttons">
+            <a class="forgot forgotten-pass pull-left" href="{%- data.forgotLink %}"  > <small>{%- data.forgotPasswordText %}</small></a>
+            <button class="btn btn-primary btn-small pull-right btn-signin send-button">{%- data.submitButtonText %}</button>
+        </div>
+    </div>
+</div>

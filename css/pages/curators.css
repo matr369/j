@@ -1,0 +1,13 @@
+.page-curators li > a {
+  padding: 8px;
+}
+.page-curators table .form-group {
+  margin: 0px !important;
+}
+.page-curators .add-to-curator {
+  padding: 7px;
+}
+.page-curators .pagination-center {
+  width: 250px;
+  margin: 0 auto;
+}

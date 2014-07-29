@@ -1,0 +1,39 @@
+<menu>
+    <!-- TODO: Постарайтесь вынести максимум в опции(defaults). Иконки, текст, доп классы -->
+    <div class="logged-user current-user">
+        <div class="btn-group">
+            <a class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="javascript:void 0;">
+                <img src="{%- App.user.get('avatar') %}" />
+                <span class="name">{%- App.user.get('name')%}</span>
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="change-password-link" href="javascript:void 0;" data-toggle="modal" data-target=".change-password-popup">
+                        <i class="{%- data.iconChangePassword%}"></i>
+                        <span class="text">{%- data.textChangePassword%}</span>
+                    </a>
+                </li>
+                {% if(App.user.can("view_settings")){%}
+                    <li>
+                        <a href="#settings">
+                            <i class="{%- data.iconSettings %}"></i>
+                            <span class="text">{%- data.textSettings%}</span>
+                        </a>
+                    </li>
+                {% } %}
+                <li>
+                    <a href="#logout">
+                        <i class="{%- data.iconLogout%}"></i>
+                        <span class="text">{%- data.textLogout%}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <view data-id="changePasswordPopup"
+              data-constructor="Views/Overlay"
+              data-options="{className: 'change-password-popup', title: '{%- data.textChangePassword%}', hideEvent: 'form:submit:success'}">
+            <view data-id='form' data-constructor='Views/ChangePasswordForm' />
+        </view>
+    </div>
+</menu>

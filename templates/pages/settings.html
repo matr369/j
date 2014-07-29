@@ -1,0 +1,68 @@
+<div class="page-settings">
+    <view data-id="header" data-constructor="Views/Base" data-options='{"tpl": {"src": "header.html?v=1" }}'/>
+    <view data-id='pageDescription' data-constructor='Views/PageDescription' data-options="{
+        pageTitle: 'Settings',
+        pageDescription: 'You can change some settings for application'
+    }"/>
+    <view data-id='breadcrumbs' data-constructor='Views/Breadcrumb' data-options="{path:[
+        {
+            href: '#settings',
+            title: 'Settings'
+        }
+    ]}"/>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1 content-wraper">
+                <div class="jumbotron">
+                    <div class="row">
+
+                        <div class="col-md-9 col-md-offset-1 student-info">
+
+                            <span class="help-block"></span>
+
+                            <div class="container filed-student">
+                                <a class="add-field-link" href="#setting/field">
+
+                                    <span class="text tags">Add new field for student's form</span>
+                                </a>
+                            </div>
+
+                            <div class="container filed-student">
+                                <a class="add-field-link" href="#setting/skill">
+
+                                    <span class="text tags">Add new skill</span>
+                                </a>
+                            </div>
+
+                            <div class="modal new-skill" id="result">
+                                <div class="modal-dialog" tabindex="-1" role="dialog"
+                                     aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                            <i class="fa fa-times"></i>
+                                        </button>
+                                        <h3 id="myModalLabel1">Add new skill</h3>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="form-group">
+                                            <label class="control-label" for="focusedInput1">Name of the
+                                                result</label>
+                                            <input class="form-control" id="focusedInput1" type="text" value="Name">
+                                        </div>
+
+                                        <div class="modal-footer">
+
+                                            <button class="btn btn-primary">Add</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

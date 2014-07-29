@@ -1,0 +1,33 @@
+<div class="breadcrumb-container">
+        <div class="container">
+            <div class="row">
+                <ul class="breadcrumb">
+                    <li>
+                        <span class="{%- data.homeIcon %}"></span>
+                        {%- data.homeTitle %}
+                    </li>
+                    {% var length = data.path.length; %}
+                    {{~ data.path :link:position }}
+                        {%? (position >= length-1) %}
+                            <li class="active">
+                                {%? link.icon %} <span class="{%- link.icon %}"></span> {%?%}
+                                    <span class="link-label">
+                                        {%- link.title %}
+                                    </span>
+                            </li>
+                        {%??%}
+                            <li>
+                                <a href="{%- link.href %}">
+                                    {%? link.icon %} <span class="{%- link.icon %}"></span> {%?%}
+                                    <span class="link-label">
+                                        {%- link.title %}
+                                    </span>
+                                </a>
+                            </li>
+                        {%?%}
+
+                     {{~}}
+                </ul>
+            </div>
+        </div>
+</div>

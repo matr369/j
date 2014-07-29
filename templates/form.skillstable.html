@@ -1,0 +1,5 @@
+<ol>
+{% data.collection.forEach(function(skill, i){  %}
+    <li>{%- skill.get('name') %}</li>
+{% }); %}
+</ol>

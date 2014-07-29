@@ -1,0 +1,9 @@
+.curators-page li > a {
+  padding: 8px;
+}
+.curators-page .form-group {
+  margin-bottom: 0px;
+}
+.curators-page .add-to-curator {
+  padding: 7px;
+}
