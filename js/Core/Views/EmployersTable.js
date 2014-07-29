@@ -1,23 +1,29 @@
 /**
  * Created by Administrator on 28.07.2014.
  */
-define(["Views/Base","Collections/Employers","underscore", "Views/FilterEmployerForm"],function(Base, Employers, _, FilterEmployerForm ){
+define(["Views/Base", "Models/Employer","Collections/Employers","underscore"],function(Base, Employer, Employers, _){
     return Base.extend({
-    /*    constructor: function(){
-          //   debugger;
-            Base.prototype.constructor.apply(this, arguments);
-           // this.collection = new Employers();
-       },*/
-        __ready: function(){
-            var filterEmployer = new FilterEmployerForm({
-            container: this.$(".filter-container"),
-            containerResolveMethod: "replaceWith"});
-            filterEmployer.render();
-        }
-  /*      __renderChildrenViews: function(){
-             Base.prototype.__renderChildrenViews.apply(this, arguments);
-        }*/
 
+       /* el: "body",
+        events:{
+        },
+
+        constructor: function(){
+          //this.option.collection = new Employers();
+        },
+
+        initialize: function(){
+          //  _.bindAll(this,"render");
+           // this.model.bind("change", this.render);
+           // this.collection.bind("add", this.render)
+        }
+
+        *//*
+         TODO realize function render
+         *//*
+       // render: function(){
+        //    return this;
+       // }*/
     },{
         defaults: $.extend(true, {}, Base.defaults, {
           tpl: {

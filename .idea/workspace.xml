@@ -4,10 +4,14 @@
     <list default="true" id="7b1b8772-184b-469c-9ece-5d5299d5bfd8" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Core/Views/FilterEmployerForm.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/form.filteremployer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" afterPath="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Views/Base.js" afterPath="$PROJECT_DIR$/js/Core/Views/Base.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Models/Employer.js" afterPath="$PROJECT_DIR$/js/Core/Models/Employer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Collections/Employers.js" afterPath="$PROJECT_DIR$/js/Core/Collections/Employers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Views/EmployersTable.js" afterPath="$PROJECT_DIR$/js/Core/Views/EmployersTable.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/employers.html" afterPath="$PROJECT_DIR$/templates/pages/employers.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/employerstable.html" afterPath="$PROJECT_DIR$/templates/employerstable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/form.addemployer.html" afterPath="$PROJECT_DIR$/templates/form.addemployer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Janlist.iws" />
@@ -31,95 +35,61 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ListEmployers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Core/Views/ListEmployers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="289">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="11" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="listemployers.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/listemployers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-49.03846" vertical-offset="102" max-vertical-offset="1513">
-              <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employerstable.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/employerstable.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilterEmployerForm.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Core/Views/FilterEmployerForm.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#50#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employers.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/pages/employers.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.769231" vertical-offset="255" max-vertical-offset="833">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employer.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Core/Models/Employer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#50#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.filteremployer.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/form.filteremployer.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployersTable.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="EmployersTable.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Core/Views/EmployersTable.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58508605" vertical-offset="0" max-vertical-offset="663">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Core/Views/Base.js">
+      <file leaf-file-name="AddEmployerForm.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5797">
-              <caret line="134" column="53" selection-start-line="134" selection-start-column="53" selection-end-line="134" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Validator.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/Core/Validator.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.20588236" vertical-offset="993" max-vertical-offset="1955">
+              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.addemployer.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/form.addemployer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.538462" vertical-offset="132" max-vertical-offset="663">
+              <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Form.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Core/Views/Form.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="3196">
+              <caret line="89" column="52" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="52" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Core/Collections/Employers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -137,7 +107,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="frontend" />
       </map>
     </option>
   </component>
@@ -173,15 +143,12 @@
         <option value="$PROJECT_DIR$/js/Core/Views/Pages/Employers.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/AddEmployer.js" />
         <option value="$PROJECT_DIR$/js/Core/Validator.js" />
-        <option value="$PROJECT_DIR$/templates/form.addemployer.html" />
         <option value="$PROJECT_DIR$/templates/form.changepassword.html" />
-        <option value="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" />
         <option value="$PROJECT_DIR$/templates/usertable.html" />
         <option value="$PROJECT_DIR$/templates/popset.html" />
         <option value="$PROJECT_DIR$/js/Core/Models/User.js" />
         <option value="$PROJECT_DIR$/js/Core/Models/User.Employer.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/UserTable.js" />
-        <option value="$PROJECT_DIR$/js/Core/Collections/Employers.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/EmployerTable.js" />
         <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/ListEmployer.html" />
@@ -190,11 +157,14 @@
         <option value="$PROJECT_DIR$/templates/listemployers.html" />
         <option value="$PROJECT_DIR$/js/Core/Models/Employer.js" />
         <option value="$PROJECT_DIR$/templates/pages/employers.html" />
+        <option value="$PROJECT_DIR$/templates/form.filteremployer.html" />
+        <option value="$PROJECT_DIR$/js/Core/Collections/Employers.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/Base.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/FilterEmployerForm.js" />
         <option value="$PROJECT_DIR$/templates/employerstable.html" />
-        <option value="$PROJECT_DIR$/templates/form.filteremployer.html" />
         <option value="$PROJECT_DIR$/js/Core/Views/EmployersTable.js" />
+        <option value="$PROJECT_DIR$/templates/form.addemployer.html" />
+        <option value="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" />
       </list>
     </option>
   </component>
@@ -681,6 +651,277 @@
       <recent name="C:\Users\Mantsevich\WebstormProjects\Janlist\js" />
     </key>
   </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Routes/Settings.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Views/NewSkillForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Views/Pages/SettingsFields.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Views/SkillsTable.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/form.newskill.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/form.skillstable.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/pages/settings.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/compiler.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/copyright/profiles_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Collections/Fields.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Models/Feild.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/js/Core/Models/Skill.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/.name</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/Janlist.iml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/artifacts/unnamed.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/compiler.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/copyright/profiles_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/encodings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/lessc/lessc.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/misc.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/modules.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/scopes/scope_settings.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/uiDesigner.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/vcs.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/watcherTasks.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/workspace.xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/.idea/workspace[Conflict].xml</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/bootstrap.min.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/global.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/breadcrumb.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/changepasswordform.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/header.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/lifecycle.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/notification.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/pagedescription.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/spooler.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/topnavigation.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/common/usermenu.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/global.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/mixins.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/pages/404.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/pages/header.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/pages/login.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/css/src/pages/settings.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/fonts/glyphicons-halflings-regular.eot</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/fonts/glyphicons-halflings-regular.svg</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/fonts/glyphicons-halflings-regular.ttf</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/fonts/glyphicons-halflings-regular.woff</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/images/logo.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/images/user-avatar.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/images/user.png</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/index.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/App.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Config.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Collections/Base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/Base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/Settings.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/User.Admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/User.Employer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/User.Manager.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/User.Student.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Models/User.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Request.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Routes/Base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Routes/Core.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Storage.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Templates.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Validator.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/AddCheckBoxField.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/AddCheckboxFieldForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/AddRadioFieldForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/AddTextFieldForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Breadcrumb.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/ChangePasswordForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/CheckView.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Fields/Base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Form.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/LoginForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Notification.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Overlay.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Page.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/PageDescription.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Pages/404.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Pages/Login.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Pages/Managers.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Pages/Settings.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Pages/SettingsField.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Pages/SettingsSkill.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/Spooler.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/Core/Views/UserMenu.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/backbone.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/bootstrap.min.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/doT.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/jquery-2.1.1.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/lodash-2.4.1.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/require.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/libs/sha3.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/js/main.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/css/global.css</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/css/src/common/spooler.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/css/src/global.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/css/src/pages/login.less</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/App.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Config.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Models/Admin.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Models/Employer.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Models/Manager.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Models/Student.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Models/User.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Request.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Routes/Core.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/Base.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/Breadcrumb.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/ChangePassword.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/ChangePasswordForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/LoginForm.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/Notification.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/PageDescription.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/Pages/Settings.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/Spooler.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Views/UserMenu.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/out/artifacts/unnamed/js/App.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/out/artifacts/unnamed/js/Core/Routes/Core.js</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/out/artifacts/unnamed/templates/header.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/out/artifacts/unnamed/templates/header.name.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/breadcrumb.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/change.password.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/core.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/form.changepassword.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/form.login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/header.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/header.name.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/page.description.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/pages/settings.field.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/pages/settings.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/pages/settings.skill.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/out/artifacts/unnamed/templates/usermenu.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/breadcrumb.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/core.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/fields.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/form.addcheckboxfield.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/form.addradiofield.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/form.addtextfield.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/form.changepassword.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/form.login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/header.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/headerAll/user.menu.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/overlay.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/page.description.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/pages/404.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/pages/login.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/pages/managers.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/pages/settings.field.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/pages/settings.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/pages/settings.skill.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/out/artifacts/unnamed/templates/usermenu.html</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/pages/settings.fields.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/templates/pages/settings.field.html</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
@@ -906,7 +1147,7 @@
       <workItem from="1406550288113" duration="13656000" />
       <workItem from="1406617202530" duration="12397000" />
       <workItem from="1406632302857" duration="32000" />
-      <workItem from="1406632400712" duration="7847000" />
+      <workItem from="1406632400712" duration="16554000" />
     </task>
     <task id="LOCAL-00001" summary="ffsd">
       <created>1406098922854</created>
@@ -1024,11 +1265,15 @@
       <created>1406632485410</created>
       <updated>1406632485410</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="add table employer">
+      <created>1406640257285</created>
+      <updated>1406640257285</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111495000" />
+    <option name="totallyTimeSpent" value="120202000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1058,15 +1303,15 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2945915" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2945915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1141,7 +1386,8 @@
     <MESSAGE value="fix core.js&#10;+ employers.js" />
     <MESSAGE value="+ add curator" />
     <MESSAGE value="in progress employer" />
-    <option name="LAST_COMMIT_MESSAGE" value="in progress employer" />
+    <MESSAGE value="add table employer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add table employer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1244,31 +1490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Core/Views/Form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="3196">
-          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/form.login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="748">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Core/Validator.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="993" max-vertical-offset="1955">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/form.addemployer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="663">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1314,13 +1539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/usermenu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="748">
@@ -1339,13 +1557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
           <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Core/Collections/Employers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1451,6 +1662,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/Core/Models/Employer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/listemployers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-49.03846" vertical-offset="102" max-vertical-offset="1513">
+          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/form.filteremployer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/pages/employers.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.769231" vertical-offset="255" max-vertical-offset="833">
@@ -1459,44 +1696,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Core/Views/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5797">
-          <caret line="134" column="53" selection-start-line="134" selection-start-column="53" selection-end-line="134" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/form.filteremployer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Core/Views/FilterEmployerForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="e#0#50#0" expanded="false" />
+            <marker date="1406644198476" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1406644198476" expanded="true" signature="-1:-1" placeholder="{&quot;tpl&quot;: null...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Core/Views/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1169" max-vertical-offset="5899">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/employerstable.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
-          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/listemployers.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-49.03846" vertical-offset="102" max-vertical-offset="1513">
-          <caret line="81" column="5" selection-start-line="81" selection-start-column="5" selection-end-line="81" selection-end-column="5" />
+        <state vertical-scroll-proportion="-14.384615" vertical-offset="340" max-vertical-offset="850">
+          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1509,20 +1732,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Core/Models/Employer.js">
+    <entry file="file://$PROJECT_DIR$/js/Core/Collections/Employers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#50#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/form.addemployer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.538462" vertical-offset="132" max-vertical-offset="663">
+          <caret line="30" column="73" selection-start-line="30" selection-start-column="73" selection-end-line="30" selection-end-column="73" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Core/Views/EmployersTable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58508605" vertical-offset="0" max-vertical-offset="663">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Core/Views/Form.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1415" max-vertical-offset="3196">
+          <caret line="89" column="52" selection-start-line="89" selection-start-column="10" selection-end-line="89" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Core/Validator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20588236" vertical-offset="993" max-vertical-offset="1955">
+          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
           <folding />
         </state>
       </provider>

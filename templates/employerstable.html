@@ -1,12 +1,40 @@
-<table class="table table-striped table-hover ">
-    <thead>
+<div class="tab-pane" id="curators">
+    <table class="table table-striped table-hover ">
+        <thead>
         <tr>
             <th>#</th>
             <th>{%- data.employerName %}</th>
             <th>{%- data.employerStudents %}</th>
         </tr>
-        <tr class="filter-container"></tr>
-    </thead>
-    <tbody><tr><td>dd</td></tr>
-    </tbody>
-</table>
+        <tr>
+            <th></th>
+            <th>
+                <div class="form-group">
+                    <view data-id="employerName" data-constructor="Views/Fields/Base" data-options="{
+                        className: 'form-control',
+                        name: 'employerName',
+                        type: 'name',
+                        attrs: {
+                        placeholder: '{%- data.employerNamePlaceholder %}'
+                         }
+                    }" />
+                </div>
+            </th>
+            <th>
+                <div class="form-group">
+                    <view data-id="studentsName" data-constructor="Views/Fields/Base" data-options="{
+                        className: 'form-control',
+                        name: 'studentsName',
+                        type: 'name',
+                        attrs: {
+                        placeholder: '{%- data.employerStudentsPlaceholder %}'
+                         }
+                    }" />
+                </div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>

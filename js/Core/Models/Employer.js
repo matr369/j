@@ -3,15 +3,9 @@
  */
 define(["Models/Base"],function(Base){
     return Base.extend({
-        defaults: function(){
-            return {
-                name: "",
-                students: []
-            };
-        },
-
-        addStudent: function(id){
-            this.students[this.students.length] = id;
+        defaults:{
+            name: "",
+            students: []
         }
     });
 });
