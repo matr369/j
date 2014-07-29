@@ -64,6 +64,7 @@ define(["underscore"], function (_) {
         $condition: function(){
             return true;
         },
+
         // Проверка на тип email
         $email: function(value, rule, name){
             return (this.$equal(value, '^[a-z0-9]+[-\\._a-z0-9][a-z0-9]@(?:[a-z0-9]+[-a-z0-9]*\\.){1,3}[a-z]{2,9}$', name) === true)? true : "Field "+name+" must be email.";

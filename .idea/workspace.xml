@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b1b8772-184b-469c-9ece-5d5299d5bfd8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/Core/Views/FilterEmployerForm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/form.filteremployer.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" afterPath="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Views/Base.js" afterPath="$PROJECT_DIR$/js/Core/Views/Base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Models/Employer.js" afterPath="$PROJECT_DIR$/js/Core/Models/Employer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Collections/Employers.js" afterPath="$PROJECT_DIR$/js/Core/Collections/Employers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Views/EmployersTable.js" afterPath="$PROJECT_DIR$/js/Core/Views/EmployersTable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/pages/employers.html" afterPath="$PROJECT_DIR$/templates/pages/employers.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/employerstable.html" afterPath="$PROJECT_DIR$/templates/employerstable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/form.addemployer.html" afterPath="$PROJECT_DIR$/templates/form.addemployer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/Core/Validator.js" afterPath="$PROJECT_DIR$/js/Core/Validator.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Janlist.iws" />
@@ -58,8 +49,8 @@
       <file leaf-file-name="Validator.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Core/Validator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20588236" vertical-offset="993" max-vertical-offset="1955">
-              <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.23713236" vertical-offset="993" max-vertical-offset="1972">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -142,7 +133,6 @@
         <option value="$PROJECT_DIR$/js/Core/Routes/Employers.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/Pages/Employers.js" />
         <option value="$PROJECT_DIR$/js/Core/Views/AddEmployer.js" />
-        <option value="$PROJECT_DIR$/js/Core/Validator.js" />
         <option value="$PROJECT_DIR$/templates/form.changepassword.html" />
         <option value="$PROJECT_DIR$/templates/usertable.html" />
         <option value="$PROJECT_DIR$/templates/popset.html" />
@@ -165,6 +155,7 @@
         <option value="$PROJECT_DIR$/js/Core/Views/EmployersTable.js" />
         <option value="$PROJECT_DIR$/templates/form.addemployer.html" />
         <option value="$PROJECT_DIR$/js/Core/Views/AddEmployerForm.js" />
+        <option value="$PROJECT_DIR$/js/Core/Validator.js" />
       </list>
     </option>
   </component>
@@ -1147,7 +1138,7 @@
       <workItem from="1406550288113" duration="13656000" />
       <workItem from="1406617202530" duration="12397000" />
       <workItem from="1406632302857" duration="32000" />
-      <workItem from="1406632400712" duration="16554000" />
+      <workItem from="1406632400712" duration="16635000" />
     </task>
     <task id="LOCAL-00001" summary="ffsd">
       <created>1406098922854</created>
@@ -1269,11 +1260,15 @@
       <created>1406640257285</created>
       <updated>1406640257285</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="add collection">
+      <created>1406649792001</created>
+      <updated>1406649792001</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120202000" />
+    <option name="totallyTimeSpent" value="120283000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1297,7 +1292,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1311,7 +1306,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2945915" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1387,7 +1382,8 @@
     <MESSAGE value="+ add curator" />
     <MESSAGE value="in progress employer" />
     <MESSAGE value="add table employer" />
-    <option name="LAST_COMMIT_MESSAGE" value="add table employer" />
+    <MESSAGE value="add collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add collection" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1774,8 +1770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Core/Validator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20588236" vertical-offset="993" max-vertical-offset="1955">
-          <caret line="65" column="10" selection-start-line="65" selection-start-column="10" selection-end-line="65" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.23713236" vertical-offset="993" max-vertical-offset="1972">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
           <folding />
         </state>
       </provider>
