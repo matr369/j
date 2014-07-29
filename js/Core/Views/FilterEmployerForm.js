@@ -1,9 +1,10 @@
 /**
  * Created by Administrator on 29.07.2014.
  */
-define(["Views/Base"], function(Base){
-    return Base.extend({},{
-        defaults: $.extend(true, {}, Base.defaults, {
+define(["Views/Form"], function(Form){
+    return Form.extend({
+    },{
+        defaults: $.extend(true, {}, Form.defaults, {
             tpl:{
                 src: "form.filteremployer.html?v=1"
             }
