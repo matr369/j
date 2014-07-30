@@ -1,16 +1,16 @@
-<div class="tab-pane" id="curators">
+<container>
     <table class="table table-striped table-hover ">
         <thead>
-        <tr>
-            <th>#</th>
-            <th>{%- data.employerName %}</th>
-            <th>{%- data.employerStudents %}</th>
-        </tr>
-        <tr>
-            <th></th>
-            <th>
-                <div class="form-group">
-                    <view data-id="employerName" data-constructor="Views/Fields/Base" data-options="{
+            <tr>
+                <th>#</th>
+                <th>{%- data.employerName %}</th>
+                <th>{%- data.employerStudents %}</th>
+            </tr>
+            <tr class="filter-container">
+                <th>&nbsp;</th>
+                <th>
+                    <div class="form-group">
+                        <view data-id="employerName" data-constructor="Views/Fields/Base" data-options="{
                         className: 'form-control',
                         name: 'employerName',
                         type: 'name',
@@ -18,11 +18,11 @@
                         placeholder: '{%- data.employerNamePlaceholder %}'
                          }
                     }" />
-                </div>
-            </th>
-            <th>
-                <div class="form-group">
-                    <view data-id="studentsName" data-constructor="Views/Fields/Base" data-options="{
+                    </div>
+                </th>
+                <th>
+                    <div class="form-group">
+                        <view data-id="studentsName" data-constructor="Views/Fields/Base" data-options="{
                         className: 'form-control',
                         name: 'studentsName',
                         type: 'name',
@@ -30,11 +30,16 @@
                         placeholder: '{%- data.employerStudentsPlaceholder %}'
                          }
                     }" />
-                </div>
-            </th>
-        </tr>
+                    </div>
+                </th>
+            </tr>
         </thead>
-        <tbody>
-        </tbody>
+        <tbody></tbody>
     </table>
-</div>
+</container>
+
+<employer>
+    <tr>
+        <td><h1>fdsfsdfsd</h1></td>
+    </tr>
+</employer>

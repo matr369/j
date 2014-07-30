@@ -11,8 +11,9 @@
         }
     ]}"/>
 
-
-    <div class="col-md-10 col-md-offset-1 content-wraper">
+<div class="container">
+    <div class="row">
+    <div class=" content-wraper">
         <div class="jumbotron">
             <ul class="nav nav-tabs">
                 <li>
@@ -31,7 +32,6 @@
                 </div>
             </ul>
            <view data-id="EmployersTable" data-constructor="Views/EmployersTable" />
-            <div class="col-md-1"></div>
         </div>
     </div>
       <view data-id="addEmployer"
@@ -39,5 +39,6 @@
           data-options="{className: 'add-employer', title: '{%- data.textAddEmployer %}', hideEvent: 'form:submit:success'}">
         <view data-id="formAddEmployer" data-constructor="Views/AddEmployerForm" />
     </view>
-
+    </div>
+</div>
 </div>

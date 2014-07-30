@@ -1,5 +1,15 @@
+
+<div>
 <ol>
+
 {% data.collection.forEach(function(skill, i){  %}
-    <li>{%- skill.get('name') %}</li>
+
+    <li>
+        {%- skill.get('name') %}
+        <i id="{%- skill.get('id') %}" class="fa fa-times"/>
+    </li>
+
 {% }); %}
+
 </ol>
+</div>

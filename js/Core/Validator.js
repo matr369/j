@@ -24,6 +24,11 @@ define(["underscore"], function (_) {
                 required: true,
                 minsize: 5,
                 email: true
+            },
+            emailExadel:{
+                required: true,
+                minsize: 5,
+                emailExadel: true
             }
         },
 
@@ -64,7 +69,6 @@ define(["underscore"], function (_) {
         $condition: function(){
             return true;
         },
-
         // Проверка на тип email
         $email: function(value, rule, name){
             return (this.$equal(value, '^[a-z0-9]+[-\\._a-z0-9][a-z0-9]@(?:[a-z0-9]+[-a-z0-9]*\\.){1,3}[a-z]{2,9}$', name) === true)? true : "Field "+name+" must be email.";
@@ -105,7 +109,11 @@ define(["underscore"], function (_) {
         },
         // проверка является ли строка именем и фамилией
         $name: function(value, rule, name){
-            return (this.$equal(value, '[a-z]+[\\ ][a-z]+', name) === true)? true: "Field "+name+" must be name.";
+            return (this.$equal(value, '[a-z]+[\\ ][a-z]+', name) === true)? true: "Field "+name+" must be first name and last name.";
+        },
+        //проверка email на домен exadel.com
+        $emailExadel: function(value, rule, name){
+            return (this.$equal(value,'^[a-z0-9]+[-\\._a-z0-9][a-z0-9]@exadel.com$', name)=== true)? true: "Field "+name+" must be youremail@exadel.com";
         }
     }
 });
