@@ -1,0 +1,31 @@
+.spooler {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index:100;
+  .spooler-bg {
+    opacity: 0.6;
+    background-color: #fff;
+    height: 100%;
+  }
+  .spooler-container {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: -13px;
+    .spooler-icon {
+      .packman();
+    }
+    .spooler-text {
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+  &.has-text {
+    .spooler-container {
+      margin-top: -25px;
+    }
+  }
+}

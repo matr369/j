@@ -1,0 +1,41 @@
+<div>
+    <view data-id="changePasswordPopup" data-constructor="Views/Base" data-options='{"tpl": {"src": "header.html?v=1" }}' />
+</div>
+<div class="content">
+    <view data-id='pageDescription' data-constructor='Views/PageDescription'/>
+    <view data-id='breadcrumbs' data-constructor='Views/Breadcrumb'/>
+</div>
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-10 col-md-offset-1 content-wraper">
+            <div class="jumbotron">
+                <div class="row">
+
+                    <div class="col-md-9 col-md-offset-1 student-info">
+
+                        <span class="help-block"></span>
+
+                        <div class="container filed-student">
+                            <a class="add-field-link tags" href="#setting/field"  data-target=".add-field-page">
+
+                                <span class="text">Add new field for student's form</span>
+                            </a>
+                        </div>
+
+
+
+                        <view data-id="changePasswordPopup"
+                              data-constructor="Views/Overlay"
+                              data-options="{className: 'add-field-page', title: '{%- data.textChangePassword%}'}">
+                            <view data-id='form' data-constructor='Views/ChangePasswordForm' />
+                        </view>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

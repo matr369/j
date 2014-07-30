@@ -1,0 +1,19 @@
+<div class="form-signin clearfix">
+    <div class=" form-user">
+        <h4 class="form-signin-heading form-head">{%- data.formTitle %}</h4>
+        <div class="input-group form-email sing-field-indent">
+            <span class="input-group-addon"><i class="{%- data.loginIcon %}"></i></span>
+            <input class="field-login form-control" type="login" required="required" placeholder="{%- data.loginPlaceholder %}">
+        </div>
+        <div class="input-group form-password sing-field-indent">
+            <span class="input-group-addon"><i class="{%- data.passwordIcon %}"></i></span>
+            <input class="field-password form-control" type="password" required="required" placeholder="{%- data.passwordPlaceholder %}">
+        </div>
+        <div class="form-buttons">
+            {% if (data.forgotPasswordText){ %}
+            <a class="forgot forgotten-pass pull-left" href="#forgot"  > <small>{%- data.forgotPasswordText %}</small></a>
+            {% } %}
+            <button class="btn btn-primary btn-small pull-right btn-signin">{%- data.submitButtonText %}</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,20 @@
+<notification>
+    <div class='alert alert-{%- data.theme %} {%- data.className %}' style='display: none;'>
+        {% if(data.title){ %}
+            <strong>{%- data.title %}</strong>
+        {% } %}
+        {%- data.message %}
+    </div>
+</notification>
+
+<spooler>
+    <div class='spooler {%- data.size %} {% if (data.text) { %} has-text {% } %}' style='display: none;'>
+        <div class='spooler-bg'></div>
+        <div class='spooler-container'>
+            <div class='spooler-icon'></div>
+            <div class='spooler-text'>
+                <small>{%- data.text %}</small>
+            </div>
+        </div>
+    </div>
+</spooler>

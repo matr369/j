@@ -1,0 +1,53 @@
+<div>
+
+    <view data-id="changePasswordPopup" data-constructor="Views/Base"
+          data-options='{"tpl": {"src": "header.html?v=1" }}'/>
+</div>
+<div class="content">
+    <view data-id='pageDescription' data-constructor='Views/PageDescription' data-options="{
+        pageTitle: 'New skill',
+        pageDescription: 'Add a new skill a student can have'
+    }"/>
+    <view data-id='breadcrumbs' data-constructor='Views/Breadcrumb' data-options="{path:[
+        {
+            href: '#settings',
+            title: 'Settings'
+        },
+
+         {
+            href: '#setting/skill',
+            title: 'Skill'
+        }
+
+
+    ]}"/>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+
+
+        <div class="col-md-9 col-md-offset-1 student-info">
+            <div class="jumbotron">
+                <div class="panel panel-info ">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">New Skill</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <h4>Name of the skill</h4>
+                        <input class="form-control" autofocus="" required="" placeholder="Name">
+
+                        <button class="btn btn-primary">Add</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,97 @@
+<div>
+    <view data-id="changePasswordPopup" data-constructor="Views/Base"
+          data-options='{"tpl": {"src": "header.html?v=1" }}'/>
+</div>
+<div class="content">
+    <view data-id='pageDescription' data-constructor='Views/PageDescription' data-options="{
+        pageTitle: 'New field',
+        pageDescription: 'Add a new field foe student information'
+    }"/>
+    <view data-id='breadcrumbs' data-constructor='Views/Breadcrumb' data-options="{path:[
+        {
+            href: '#settings',
+            title: 'Settings'
+        },
+
+         {
+            href: '#setting/field',
+            title: 'Field'
+        }
+
+
+    ]}"/>
+</div>
+
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-9 col-md-offset-1 student-info">
+            <div class="jumbotron">
+                <div class="panel panel-info ">
+                    <div class="panel-heading text-center">
+                        <h3 class="panel-title">New field</h3>
+                    </div>
+                    <div class="panel-body">
+
+                        <h4>Name of the field</h4>
+                        <input class="form-control" autofocus="" required="" placeholder="Name">
+
+                        <div class="dropdown">
+                            <a class="dropdown-toggle down" data-toggle="dropdown" href="#">
+                                Type of the field<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu ">
+                                <li>
+                                    <a class="add-radio" href="javascript:void 0;" data-toggle="modal"
+                                       data-target=".add-radio-popup">
+
+                                        <span class="text">Radio</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="add-checkbox" href="javascript:void 0;" data-toggle="modal"
+                                       data-target=".add-checkbox-popup">
+
+                                        <span class="text">Checkbox</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="add-text" href="javascript:void 0;" data-toggle="modal"
+                                       data-target=".add-text-popup">
+
+                                        <span class="text">text</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <view data-id="AddNewRadio"
+                  data-constructor="Views/Overlay"
+                  data-options="{className: 'add-radio-popup', title: 'Enter button names'}">
+                <view data-id='addField' data-constructor='Views/AddRadioFieldForm'/>
+            </view>
+
+
+            <view data-id="AddNewCheckbox"
+                  data-constructor="Views/Overlay"
+                  data-options="{className: 'add-checkbox-popup', title: 'Enter default value'}">
+                <view data-id='addField' data-constructor='Views/AddCheckboxFieldForm'/>
+            </view>
+
+
+            <view data-id="AddNewText"
+                  data-constructor="Views/Overlay"
+                  data-options="{className: 'add-text-popup', title: 'Enter default value'}">
+                <view data-id='addField' data-constructor='Views/AddTextFieldForm'/>
+            </view>
+
+        </div>
+    </div>
+</div>
+

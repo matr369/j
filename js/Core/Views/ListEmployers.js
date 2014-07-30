@@ -3,11 +3,11 @@
  */
 define(["Views/Base", "Collections/Employers", "Models/Employer", "underscore", "jquery", "Views/EmployerRow"], function(Base, Employers, Employer, _, $, EmployerRow){
     return Base.extend({
-        constructor: function(){
+        constructor: function(options){
+            options = options || {};
+            options.collection = new Employers();
             Base.prototype.constructor.apply(this, arguments);
-            this.collection = new Employers();
-            _.bindAll(this,'render');
-            this.collection.bind('add',this.render);
+            this.listenTo(options.collection, "add", this.showEmployer);
         },
         render: function(){
             this.showEmployer(new Employer({name: "dfsdf", email: "fdfdfsd"}));
@@ -17,10 +17,11 @@ define(["Views/Base", "Collections/Employers", "Models/Employer", "underscore", 
 
             var row = new EmployerRow({
                 container: this.$el,
-                containerResolveMethod: "append"
+                containerResolveMethod: "append",
+                model: model
             });
            row.show();
-            debugger;
+
         }
 
     },{

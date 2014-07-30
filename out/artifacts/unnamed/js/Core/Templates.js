@@ -46,11 +46,7 @@ define(["jquery", "underscore", "App", "Core/Storage", "libs/doT"], function($, 
          * @returns {*|jQuery}
          */
         findBySelector: function(tpl, selector){
-            var result = $(tpl).find(selector);
-            if (result.length === 0) {
-                result = $(tpl).filter(selector);
-            }
-            return result.html();
+            return $("<section>" + tpl + "</section>").find(selector).html();
         },
 
         /**

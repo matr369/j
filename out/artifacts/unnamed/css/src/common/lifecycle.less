@@ -1,0 +1,25 @@
+// Main lifecycle styles
+body, html, .page-container {
+  .min-height(100%);
+}
+.loading-app-shield {
+  position: relative;
+  .min-height(100%);
+}
+.invalid-browser-container {
+  .hide();
+}
+.update-your-browser {
+  .loading-app-shield {
+    .hide();
+  }
+  .invalid-browser-container {
+    .show();
+  }
+
+}
+.app-ready {
+  .loading-app-shield, .invalid-browser-container {
+    .hide();
+  }
+}

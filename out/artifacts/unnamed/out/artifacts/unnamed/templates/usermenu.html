@@ -1,0 +1,56 @@
+<menu>
+    <!-- TODO: Постарайтесь вынести максимум в опции(defaults). Иконки, текст, доп классы -->
+    <div class="logged-user current-user">
+        <div class="btn-group">
+            <a class="btn btn-link dropdown-toggle" data-toggle="dropdown" href="#">
+                <img src="{%- App.user.get('avatar')%}">
+                <span class="name">{%- App.user.get('name')%}</span>
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="change-password-link" href="javascript:void 0;">
+                        <i class="{%- data.iconChangePassword%}"></i>
+                        <span class="text">{%- data.textChangePassword%}</span>
+                    </a>
+                </li>
+                {% if(App.user.can("view_settings")){%}
+                    <li>
+                        <a href="#settings">
+                            <i class="{%- data.iconSettings %}"></i>
+                            <span class="text">{%- data.textSettings%}</span>
+                        </a>
+                    </li>
+                {% } %}
+                <li>
+                    <a href="#logout">
+                        <i class="{%- data.iconLogout%}"></i>
+                        <span class="text">{%- data.textLogout%}</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- TODO: Может создать отдельню вью для всех Попапов? -->
+        <view data-id="changePasswordPopup" data-constructor="Views/Base"
+              data-options='{"tpl": {"src":"usermenu.html","$":"change-password-popup"}}'/>
+    </div>
+</menu>
+
+<change-password-popup>
+    <div class="modal">
+        <div class="modal-dialog dialog-change-password">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i
+                            class="fa fa-times"></i></button>
+                    <h4 class="modal-title">Change password</h4>
+                </div>
+
+                <!-- TODO: Может создать отдельню вью для всех Форм с методами - send и serialize? -->
+                <div class="modal-body">
+                    <view data-id='loginForm' data-constructor='Views/ChangePasswordForm'/>
+                </div>
+            </div>
+        </div>
+    </div>
+</change-password-popup>

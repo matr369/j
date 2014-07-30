@@ -1,0 +1,42 @@
+/**
+ * Created by Administrator on 22.07.2014.
+ */
+@login-form-width: 300px;
+@login-form-heigth: 200px;
+.box-shadow(@style,@c) when(iscolor(@c)){
+  -webkit-box-shadow: @style @c;
+  -moz-box-shadow: @style @c;
+  box-shadow: @style @c;
+}
+.box-shadow(@style, @alpha: 50%) when (isnumber(@alpha)) {
+  .box-shadow(@style, rgba(0, 0, 0, @alpha));
+}
+.page-login {
+  .min-height(100%);
+  margin:1px !important;
+}
+.login-form-container{
+  position:absolute;
+  top:30%;
+  left:50%;
+  margin-left:-1*@login-form-width/2;
+  margin-top:-1*@login-form-heigth/2;
+  border:10px;
+  text-align:center;
+  width: @login-form-width;
+  min-height:@login-form-heigth;
+  .box-shadow(0px 2px 2px 2px,40%);
+  background: #ffffff;
+}
+
+.form-user{
+  margin: 8px;
+}
+
+.sing-field-indent{
+  margin-bottom: 8px !important;
+}
+
+.forgotten-pass{
+  margin: 4px;
+}
